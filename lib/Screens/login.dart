@@ -22,7 +22,17 @@ class _LoginPageState extends State<LoginPage> {
           child: Center(
             child: Card(
                 child: Stack(
-              children: [Image(image: AssetImage("1.png"))],
+              children: [
+                Image(image: AssetImage("1.png")),
+                ElevatedButton.icon(
+                    onPressed: () => {
+                          // signup(context);
+                        },
+                    icon: Image(
+                      image: AssetImage("google.png"),
+                    ),
+                    label: Text("Sign In with Google"))
+              ],
             )),
           ),
         ),
