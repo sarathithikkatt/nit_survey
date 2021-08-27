@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "225742767651",
+    "project_id": "nimmy-17b9e",
+    "storage_bucket": "nimmy-17b9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225742767651:android:594560711295c8378a9396",
+        "android_client_info": {
+          "package_name": "com.example.survey_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225742767651-f9llo9eemqkbg2tvu8oluh51nq5p7347.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.survey_app",
+            "certificate_hash": "21a83f77f940426906386cccd75f53b10094b274"
+          }
+        },
+        {
+          "client_id": "225742767651-d4ab75dfo5avv4ibterodid0qurbm9et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI4HGVNLXyEW16KllLxkmuEX1W3ImiFfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225742767651-d4ab75dfo5avv4ibterodid0qurbm9et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
