@@ -9,7 +9,10 @@ sendData(String userName) {
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
         },
-        body: jsonEncode(<String, String>{'userName': 'flutter Sonu', 'userId': 'flutterFromSonu'}),
+        body: jsonEncode({
+          'userName': ['flutterFromSonu', 'heythere'],
+          'userId': 'flutter Sonu',
+        }),
       )
       .then((res) => print(res.body));
 }
