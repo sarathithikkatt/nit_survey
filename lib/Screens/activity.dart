@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:sensors_plus/sensors_plus.dart';
-import 'package:survey_app/Screens/snake.dart';
 
 class ActivityScreen extends StatefulWidget {
   ActivityScreen({Key? key, this.title}) : super(key: key);
@@ -37,22 +36,6 @@ class _ActivityScreenState extends State<ActivityScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          // Center(
-          //   child: DecoratedBox(
-          //     decoration: BoxDecoration(
-          //       border: Border.all(width: 1.0, color: Colors.black38),
-          //     ),
-          //     child: SizedBox(
-          //       height: _snakeRows * _snakeCellSize,
-          //       width: _snakeColumns * _snakeCellSize,
-          //       child: Snake(
-          //         rows: _snakeRows,
-          //         columns: _snakeColumns,
-          //         cellSize: _snakeCellSize,
-          //       ),
-          //     ),
-          //   ),
-          // ),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Row(
