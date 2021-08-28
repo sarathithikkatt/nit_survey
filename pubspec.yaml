@@ -33,6 +33,7 @@ dependencies:
   firebase_auth: ^3.0.2
   google_sign_in: ^5.0.7
   http: ^0.13.3
+  firebase_core: ^1.6.0
   sensors_plus: ^1.1.0
 
 
@@ -52,7 +53,6 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-
   assets:  
     - assets/
     # - images/a_dot_ham.jpeg
