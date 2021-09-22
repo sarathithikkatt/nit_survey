@@ -8,3 +8,7 @@ List<String> activities = <String>[
   'Walk',
   'Swimming',
 ];
+
+int session_emoji_count = 0;
+int session_backspace_count = 0;
+int session_text_length = 0;

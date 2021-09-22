@@ -5,6 +5,8 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:survey_app/functions.dart';
+import 'package:survey_app/global.dart';
 import 'package:survey_app/post_data.dart';
 
 class LogicalKeyboard extends StatefulWidget {
@@ -31,9 +33,12 @@ class _LogicalKeyboardState extends State<LogicalKeyboard> {
           TextField(
             onChanged: (value) {
               // print('cheking: ${value.length}  < $strlen');
+              session_text_length = value.length;
+              session_emoji_count = countEmoji(value);
               if (value.length < strlen) {
                 setState(() {
                   bsCount = bsCount + 1;
+                  session_backspace_count = bsCount;
                   print('backspace : $bsCount');
                 });
               }
